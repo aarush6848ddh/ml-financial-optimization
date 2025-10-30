@@ -236,7 +236,7 @@ def page_openbb_analysis():
         2. **Data Normalization**: Robust column name normalization for consistent processing across different data sources
         3. **Technical Analysis**: Computation of moving averages, MACD, Bollinger Bands, RSI, and ATR
         4. **Risk Metrics**: Rolling Sharpe ratios, volatility measures, correlation analysis, and drawdown calculations
-        5. **Visualization**: Interactive Plotly charts with dark theme styling for professional presentation
+        5. **Visualization**: Interactive Plotly charts for professional presentation
         """
     )
     
