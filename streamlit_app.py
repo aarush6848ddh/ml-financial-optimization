@@ -12,10 +12,12 @@ def _write_intro_long_form():
     st.title("ML Financial Optimization — Full Findings")
     st.markdown(
         """
+        **GitHub Repository**: [ml-financial-optimization](https://github.com/aarush6848ddh/ml-financial-optimization)
+        
         This page is a single, comprehensive report of the project: why it was built, the hypotheses tested, how it was implemented,
         and what the results imply for quantitative portfolio construction and asset pricing.
 
-        Source inspiration: replication and extension of Jiawen Liang’s PhD thesis, “Machine Learning in Asset Pricing and Portfolio Optimization” (University of Glasgow, 2024).
+        Source inspiration: replication and extension of Jiawen Liang's PhD thesis, "Machine Learning in Asset Pricing and Portfolio Optimization" (University of Glasgow, 2024).
         Link: https://theses.gla.ac.uk/84858/
 
         Why this project?
