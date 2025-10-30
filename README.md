@@ -1,5 +1,7 @@
 # ML Financial Optimization: Machine Learning for Asset Pricing & Portfolio Optimization
 
+**[View Interactive Findings & Analysis on Streamlit](https://ml-financial-optimization.streamlit.app/)**
+
 > **Note**: This repository recreates the research and implementations from the PhD thesis "Machine Learning in Asset Pricing and Portfolio Optimization" by Jiawen Liang (University of Glasgow, 2024). [**Link to thesis**](https://theses.gla.ac.uk/84858/) *(also referenced in `streamlit_app.py`)*
 
 > A comprehensive research framework exploring reinforcement learning, inverse optimization, and neural pricing kernels for quantitative finance.
