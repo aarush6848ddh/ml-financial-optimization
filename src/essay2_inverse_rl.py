@@ -149,7 +149,7 @@ def visualize_essay2(results: Dict, save: bool = False):
     save_dir.mkdir(parents=True, exist_ok=True)
     create_openbb_essay2_visualizations(results, save_dir)
     if save:
-        print(f"\n✅ OpenBB visualizations saved to: {save_dir}")
+        print(f"\nOpenBB visualizations saved to: {save_dir}")
 
 
 if __name__ == "__main__":

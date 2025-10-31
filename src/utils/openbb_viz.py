@@ -154,7 +154,7 @@ def create_price_chart(symbol: str, data: pd.DataFrame, save_path: Path, title: 
         plt.close()
         return True
     except Exception as e:
-        print(f"    ✗ Error: {e}")
+        print(f"    Error: {e}")
         return False
 
 
@@ -359,7 +359,7 @@ def create_openbb_essay1_visualizations(results: Dict, save_dir: Path):
     """Create professional dark theme visualizations for Essay 1."""
     symbols = results.get('symbols', ['SPY', 'TLT', 'GLD'])
     
-    print("\n📊 Creating Professional Dark Theme OpenBB Visualizations for Essay 1...")
+    print("\nCreating Professional Dark Theme OpenBB Visualizations for Essay 1...")
     
     start_date = '2007-01-01'
     end_date = '2021-12-31'
@@ -376,20 +376,20 @@ def create_openbb_essay1_visualizations(results: Dict, save_dir: Path):
             create_volume_chart(symbol, data, save_dir / f"{symbol}_volume.png")
             create_rsi_chart(symbol, data, save_dir / f"{symbol}_rsi.png")
             create_returns_distribution(symbol, data, save_dir / f"{symbol}_returns_dist.png")
-            print(f"    ✓ Created 4 professional charts for {symbol}")
+            print(f"    Created 4 professional charts for {symbol}")
     
     if 'portfolio_returns' in results:
         create_portfolio_performance(results['portfolio_returns'], 
                                    save_dir / "portfolio_performance.png",
                                    "Essay 1: SARSA-IS Portfolio Performance")
-        print(f"    ✓ Created portfolio performance chart")
+        print(f"    Created portfolio performance chart")
 
 
 def create_openbb_essay2_visualizations(results: Dict, save_dir: Path):
     """Create professional dark theme visualizations for Essay 2."""
     symbols = ['SPY', 'TLT', 'GLD', 'IWM', 'EFA']
     
-    print("\n📊 Creating Professional Dark Theme OpenBB Visualizations for Essay 2...")
+    print("\nCreating Professional Dark Theme OpenBB Visualizations for Essay 2...")
     
     start_date = '2010-01-01'
     end_date = '2023-12-31'
@@ -405,20 +405,20 @@ def create_openbb_essay2_visualizations(results: Dict, save_dir: Path):
             create_price_chart(symbol, data, save_dir / f"{symbol}_price.png", f"{symbol} Price - Essay 2")
             create_volume_chart(symbol, data, save_dir / f"{symbol}_volume.png")
             create_rsi_chart(symbol, data, save_dir / f"{symbol}_rsi.png")
-            print(f"    ✓ Created 3 professional charts for {symbol}")
+            print(f"    Created 3 professional charts for {symbol}")
     
     if 'portfolio_returns' in results:
         create_portfolio_performance(results['portfolio_returns'], 
                                    save_dir / "portfolio_performance.png",
                                    "Essay 2: Inverse RL Portfolio Performance")
-        print(f"    ✓ Created portfolio performance chart")
+        print(f"    Created portfolio performance chart")
 
 
 def create_openbb_essay3_visualizations(results: Dict, save_dir: Path):
     """Create professional dark theme visualizations for Essay 3."""
     symbols = ['SPY', 'QQQ', 'IWM', 'EFA']
     
-    print("\n📊 Creating Professional Dark Theme OpenBB Visualizations for Essay 3...")
+    print("\nCreating Professional Dark Theme OpenBB Visualizations for Essay 3...")
     
     start_date = '2010-01-01'
     end_date = '2023-12-31'
@@ -434,4 +434,4 @@ def create_openbb_essay3_visualizations(results: Dict, save_dir: Path):
             create_price_chart(symbol, data, save_dir / f"{symbol}_price.png", f"{symbol} Price - Essay 3")
             create_volume_chart(symbol, data, save_dir / f"{symbol}_volume.png")
             create_rsi_chart(symbol, data, save_dir / f"{symbol}_rsi.png")
-            print(f"    ✓ Created 3 professional charts for {symbol}")
+            print(f"    Created 3 professional charts for {symbol}")

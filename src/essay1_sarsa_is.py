@@ -154,7 +154,7 @@ def visualize_essay1(results: Dict, save: bool = False):
     create_openbb_essay1_visualizations(results, save_dir)
     
     if save:
-        print(f"\n✅ All OpenBB visualizations saved to: {save_dir}")
+        print(f"\nAll OpenBB visualizations saved to: {save_dir}")
 
 
 if __name__ == "__main__":
