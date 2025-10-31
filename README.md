@@ -2,6 +2,46 @@
 
 **[View Interactive Findings & Analysis on Streamlit](https://ml-financial-optimization.streamlit.app/)**
 
+## Technologies & Topics Covered
+
+### Machine Learning & AI
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Reinforcement Learning](https://img.shields.io/badge/Reinforcement_Learning-FF6F00?style=for-the-badge)
+![Deep RL](https://img.shields.io/badge/Deep_RL-9C27B0?style=for-the-badge)
+![Stable Baselines3](https://img.shields.io/badge/Stable_Baselines3-4CAF50?style=for-the-badge)
+![A2C](https://img.shields.io/badge/A2C-8E44AD?style=for-the-badge)
+![Gymnasium](https://img.shields.io/badge/Gymnasium-007ACC?style=for-the-badge)
+![SARSA](https://img.shields.io/badge/SARSA-2196F3?style=for-the-badge)
+![Importance Sampling](https://img.shields.io/badge/Importance_Sampling-F39C12?style=for-the-badge)
+
+### Finance & Optimization
+![Portfolio Optimization](https://img.shields.io/badge/Portfolio_Optimization-2ECC71?style=for-the-badge)
+![Asset Pricing](https://img.shields.io/badge/Asset_Pricing-3498DB?style=for-the-badge)
+![Quantitative Finance](https://img.shields.io/badge/Quantitative_Finance-1ABC9C?style=for-the-badge)
+![Risk Management](https://img.shields.io/badge/Risk_Management-E74C3C?style=for-the-badge)
+![Mean-Variance](https://img.shields.io/badge/Mean--Variance-9B59B6?style=for-the-badge)
+![Inverse Optimization](https://img.shields.io/badge/Inverse_Optimization-F1C40F?style=for-the-badge)
+![Stochastic Discount Factor](https://img.shields.io/badge/Stochastic_Discount_Factor-D35400?style=for-the-badge)
+![Technical Analysis](https://img.shields.io/badge/Technical_Analysis-2C3E50?style=for-the-badge)
+
+### Data & Visualization
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8FBC8F?style=for-the-badge&logo=scipy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-3771B1?style=for-the-badge)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![OpenBB](https://img.shields.io/badge/OpenBB-000000?style=for-the-badge)
+![yfinance](https://img.shields.io/badge/yfinance-0298D3?style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+### Optimization & Math
+![CVXPY](https://img.shields.io/badge/CVXPY-4A90E2?style=for-the-badge)
+![CVXOPT](https://img.shields.io/badge/CVXOPT-5DADE2?style=for-the-badge)
+
 > **Note**: This repository recreates the research and implementations from the PhD thesis "Machine Learning in Asset Pricing and Portfolio Optimization" by Jiawen Liang (University of Glasgow, 2024). [**Link to thesis**](https://theses.gla.ac.uk/84858/) *(also referenced in `streamlit_app.py`)*
 
 > A comprehensive research framework exploring reinforcement learning, inverse optimization, and neural pricing kernels for quantitative finance.
